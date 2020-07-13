@@ -1,0 +1,95 @@
+<configs>
+
+		<!--   Compass -->
+
+		<setattribute xpath="/xui/ruleset[@name='default']/window_group[@name='compass']/window[@name='windowCompass']" name="anchor">CenterTop</setattribute>
+
+
+		<!--   Level Display & XP Bar -->
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='toolbelt']">
+			<window name="survivorHUDlevelXP" anchor="LeftTop" />
+		</append>
+
+
+		<!--   Day & Time Display HUD -->
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
+			<window name="survivorHUDdayTimeFrame" anchor="LeftTop" />
+		</append>
+
+
+		<!--   Time Display UI -->
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='crafting']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='character']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='map']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='skills']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='players']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='quests']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='journal']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='creative']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='looting']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_workbench']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_campfire']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_chemistryStation']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_cementMixer']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='assemble']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='trader']">
+			<window name="survivorHUDtimeFrame" anchor="LeftTop" />
+		</append>
+
+
+		<!--   Temperature & Elevation Display -->
+
+		<append xpath="/xui/ruleset[@name='default']/window_group[@name='compass']">
+			<window name="survivorHUDenvironment" anchor="LeftTop" />
+		</append>
+
+</configs>

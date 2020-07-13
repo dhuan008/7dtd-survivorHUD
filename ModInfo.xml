@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xml>
+	<ModInfo>
+		<Name value="survivorHUD" />
+		<Description value="Survivor HUD is a HUD modlet for 7 Days to Die." />
+		<Author value="Oof" />
+		<Version value="19" />
+		<Website value="https://github.com/lloan/7dtd-survivorHUD" />
+	</ModInfo>
+</xml>
