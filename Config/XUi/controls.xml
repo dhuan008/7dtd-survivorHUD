@@ -5,7 +5,7 @@
 		<append xpath="/controls">
 			<survivorHUD_toolbelt_interface>
 				<rect style="hover, survivorHUD_toolbelt_interface" controller="ItemStack" collider_scale="1.1">
-					<texture name="backgroundMain" depth="2" pos="-2,0" size="64,44" texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_slot_background.png" color="[darkGrey]" type="sliced" globalopacitymod="0.8" foregroundlayer="true" />
+					<texture name="backgroundMain" depth="-1" pos="10,-20" size="75,75" texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_slot_background.png" color="[darkGrey]" type="sliced" globalopacitymod="0.8" foregroundlayer="false" />
 
 					<sprite name="background" depth="3" pos="0,0" size="83,83" atlas="uiAtlas" type="sliced" fillcenter="false" globalopacity="true" />
 					<sprite name="highlightOverlay" depth="2" pos="0,0" size="82,82" color="[darkGrey]" type="sliced" globalopacity="true" visible="false" />
