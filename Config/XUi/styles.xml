@@ -40,7 +40,7 @@
 		<!--  Toolbelt Layout -->
 
 		<append xpath="/styles">
-			<style name="survivorHUD_toolbelt_itemstack_85">
+			<style name="survivorHUD_toolbelt_interface">
 				<style_entry name="select_color"		value="[lightGrey]" />
 				<style_entry name="press_color" 		value="[white]" />
 				<style_entry name="final_pressed_color" value="[lightGrey]" />
