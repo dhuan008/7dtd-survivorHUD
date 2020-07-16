@@ -1,6 +1,6 @@
 <configs>
 
-		<!--  Toolbelt Interface Design -->
+		<!--  Toolbelt Interface -->
 
 		<append xpath="/controls">
 			<survivorHUD_toolbelt_interface>
