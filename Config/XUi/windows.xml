@@ -4,7 +4,7 @@
 
 		<append xpath="/windows">
 			<window name="windowCompass" pos="-190,-20" size="380,43" controller="CompassWindow">
-				<texture name="survivorHUDcompassBG" depth="0" pos="-121,40" size="622,165"  texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_compass_background.png" color="0,0,0,180" globalopacitymod="1.2" />
+				<texture name="survivorHUDcompassBG" depth="0" pos="-121,40" size="622,165"  texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_compass_background.png" color="black" globalopacitymod="1.2" />
 				<texture name="survivorHUDcompassMarker" depth="9" pos="170,15" size="42,58" texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_compass_marker.png" color="[darkGrey]"  />
 				<texture name="compassTexture" depth="8" pos="0,5" size="380,20" texture="Textures/UI/ui_game_compass" color="[iconColor]" tooltip="CHARACTER" rect_size="0.25,1" rect_offset=".8,0" />
 			</window>
