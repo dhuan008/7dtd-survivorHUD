@@ -1,6 +1,6 @@
 <configs>
 
-<!--	// survivorHUD // Toolbelt Interface Design -->
+		<!--  Toolbelt Interface Design -->
 
 		<append xpath="/controls">
 			<survivorHUD_toolbelt_interface>
@@ -27,21 +27,5 @@
 					<sprite name="assembleIcon" depth="13" pos="19,-19" size="40,40" sprite="{stacklockicon}" visible="{isassemblelocked}" foregroundlayer="true" />
 				</rect>
 			</survivorHUD_toolbelt_interface>
-		</append>
-
-
-<!--	// survivorHUD // Quest Tracker -->
-
-		<append xpath="/controls">
-			<survivorHUD_quest_objective_tracker_entry>
-				<rect size="280,26" controller="QuestTrackerObjectiveEntry" visible="{hasobjective}">
-					<sprite name="iconTrack" depth="2" pos="280,6" size="22,22" color="{objectivecompletecolor}" atlas="itemiconatlas" sprite="{objectivecompletesprite}" visible="{objectiveshowicon}" />
-
-					<sprite name="survivorHUDobjectiveBG" depth="0" pos="-15,11" size="340,36" atlas="uiAtlas" sprite="survivorHUD_hud_objective_background" color="[hudElementsBG]" globalopacitymod="1.0" />
-
-					<label name="survivorHUDqtObjective" depth="1" pos="0,6" width="{objectivetextwidth}" text="{objectiveoptional}{objectivedescription} " font_size="20" color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" justify="left" visible="{hasobjective}" />
-					<label name="survivorHUDqtState" depth="1" pos="0,6" width="{objectivetextwidth}" text=" [{objectivecompletehexcolor}]{objectivestate}[-]" font_size="20" color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1" upper_case="true" justify="right" visible="{hasobjective}" />
-				</rect>
-			</survivorHUD_quest_objective_tracker_entry>
 		</append>
 </configs>
