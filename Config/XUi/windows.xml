@@ -6,7 +6,7 @@
         <window name="windowCompass" pos="-190,-20" size="380,43" controller="CompassWindow">
             <texture name="survivorHUDcompassBG" depth="0" pos="-121,40" size="622,140"
                      texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_hud_compass_background.png"
-                     color="0,0,0,0.65" globalopacitymod="1.2"/>
+                     color="0,0,0,0.20" globalopacitymod="0.5"/>
             <texture name="survivorHUDcompassMarker" depth="9" pos="170,15" size="42,58"
                      texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_hud_compass_marker.png"
                      color="[darkGrey]"/>
