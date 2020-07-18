@@ -5,10 +5,10 @@
     <append xpath="/windows">
         <window name="windowCompass" pos="-190,-20" size="380,43" controller="CompassWindow">
             <texture name="survivorHUDcompassBG" depth="0" pos="-121,40" size="622,140"
-                     texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_compass_background.png"
+                     texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_hud_compass_background.png"
                      color="0,0,0,0.65" globalopacitymod="1.2"/>
             <texture name="survivorHUDcompassMarker" depth="9" pos="170,15" size="42,58"
-                     texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_compass_marker.png"
+                     texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_hud_compass_marker.png"
                      color="[darkGrey]"/>
             <texture name="compassTexture" depth="8" pos="0,5" size="380,20" texture="Textures/UI/ui_game_compass"
                      color="[iconColor]" tooltip="CHARACTER" rect_size="0.25,1" rect_offset=".8,0"/>
@@ -27,17 +27,17 @@
                 <rect name="survivorHUDstealthBar" pos="60,70" size="240,55" controller="HUDStatBar" stat_type="Stealth"
                       visible="{statvisible}">
                     <texture name="survivorHUDstatsIconBG" depth="6" pos="-10,-10" size="40,50"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_icon_background_radial.png"
+                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_hud_icon_background_radial.png"
                              color="[hudElementsBG]" pivot="center" globalopacitymod="1.8" rotation="90"/>
                     <texture name="mainBackground" depth="3" pos="-10,-1" size="155,18"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_stats_background_v2.png"
+                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_stats_background_v2.png"
                              type="filled" fill="1" globalopacitymod="1.5" color="[hudElementsBG]" flip="vertically"/>
                     <filledsprite name="barBackground" depth="4" pos="8,-6" size="120,10" atlas="uiAtlas" type="filled"
                                   fill="1" color="[darkGrey]"/>
                     <filledsprite name="BarContent" depth="5" pos="8,-6" size="120,10" atlas="uiAtlas" type="filled"
                                   fill="0" color="[hudElementsStealth]"/>
                     <texture name="Icon" depth="7" pos="-17,-2" size="16,16"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_stealth_icon.png"
+                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_stealth_icon.png"
                              color="[hudElementsIcon]" foregroundlayer="true"/>
                     <label name="TextContent" depth="7" pos="5,-2" text="{statcurrent}" font_size="14"
                            color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -47,7 +47,7 @@
                 <rect name="survivorHUDhealthBar" pos="0,32" size="240,55" controller="HUDStatBar" stat_type="Health"
                       visible="{statvisible}">
                     <texture name="survivorHUDstatsBG" depth="1" pos="10,15" size="225,170"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_stats_background_v2.png"
+                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_stats_background_v2.png"
                              type="sliced" globalopacitymod="1.5" color="[hudElementsBG]"/>
                     <sprite name="background" depth="2" pos="66,-10" size="140,24" atlas="uiAtlas" type="sliced"
                             globalopacitymod="0.6" color="[hudElementsBG]"/>
@@ -56,7 +56,7 @@
                     <filledsprite name="BarContent" depth="5" pos="66,-10" size="140,24" atlas="uiAtlas" type="filled"
                                   fill="0" color="[hudElementsHealth]"/>
                     <texture name="Icon" depth="7" pos="37,-12" size="22,22"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_health_icon.png"
+                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_health_icon.png"
                              color="[hudElementsIcon]" foregroundlayer="true"/>
                     <label name="TextContent" depth="7" pos="50,-14" text="{statcurrentwithmax}" font_size="16"
                            color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -72,7 +72,7 @@
                     <filledsprite name="BarContent" depth="5" pos="66,-10" size="140,24" atlas="uiAtlas" type="filled"
                                   fill="0" color="[hudElementsStamina]"/>
                     <texture name="Icon" depth="7" pos="37,-12" size="22,22"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_stamina_icon.png"
+                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_stamina_icon.png"
                              color="[hudElementsIcon]" foregroundlayer="true"/>
                     <label name="TextContent" depth="7" pos="50,-14" text="{statcurrentwithmax}" font_size="16"
                            color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -88,7 +88,7 @@
                     <filledsprite name="BarContent" depth="4" pos="66,-10" size="140,24" atlas="uiAtlas" type="filled"
                                   fill="0" color="[hudElementsFood]"/>
                     <texture name="Icon" depth="7" pos="37,-12" size="22,22"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_hunger_icon.png"
+                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_hunger_icon.png"
                              color="[hudElementsIcon]" foregroundlayer="true"/>
                     <label name="TextContent" depth="7" pos="65,-14" text="{playerfood}" font_size="16"
                            color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -104,7 +104,7 @@
                     <filledsprite name="BarContent" depth="4" pos="66,-10" size="140,24" atlas="uiAtlas" type="filled"
                                   fill="0" color="[hudElementsWater]"/>
                     <texture name="Icon" depth="7" pos="37,-12" size="22,22"
-                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_thirst_icon.png"
+                             texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_stats_thirst_icon.png"
                              color="[hudElementsIcon]" foregroundlayer="true"/>
                     <label name="TextContent" depth="7" pos="65,-14" text="{playerwater}" font_size="16"
                            color="[hudElementsLBLPri]" crispness="Never" effect="outline" effect_distance="1,1"
@@ -134,7 +134,7 @@
         <window name="windowToolbelt" depth="0" pos="0,75" size="760,226" backgroundcolor="[black]"
                 controller="ToolbeltWindow" visible="{toolbeltvisible}" cursor_area="true" xp_fill_speed="2.5">
             <texture name="survivorHUDlevelxpBG" depth="-5" pos="-380,44" size="835,105"
-                     texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_levelxp_background.png"
+                     texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_hud_levelxp_background.png"
                      color="black" effect="outline" globalopacitymod="1.5"/>
 
             <rect name="fightStats" pos="345, 26" size="100, 26" color="0,0,0,189">
@@ -196,10 +196,10 @@
 
             <sprite pos="130,-653" sprite="" color="255,255,255,255" globalopacitymod="1.8">
                 <texture name="survivorHUDdateIcon" depth="2" pos="-5, 28" size="20,20"
-                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_date_icon.png"
+                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_date_icon.png"
                          color="[hudElementsBG]" globalopacitymod="1.5"/>
                 <texture name="survivorHUDtimeIcon" depth="2" pos="50, 28" size="20,20"
-                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_time_icon.png"
+                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_time_icon.png"
                          color="[hudElementsBG]" globalopacitymod="1.5"/>
 
                 <label name="survivorHUDday" depth="2" pos="5,-6" width="70" height="30"
@@ -218,19 +218,19 @@
         <window name="survivorHUDenvironment" pos="225,-15" size="120,60">
             <rect name="survivorHUDenvironmentBG" pos="0,0">
                 <texture name="survivorHUDlevelxpBG" depth="0" pos="-205,10" size="365,80"
-                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/uiAtlas/survivorHUD_hud_levelxp_background.png"
+                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/uiAtlas/survivorHUD_hud_levelxp_background.png"
                          color="[hudElementsBG]" globalopacitymod="1.5"/>
             </rect>
 
             <rect name="survivorHUDenvironmentIcons" pos="-60,0">
                 <texture name="survivorHUDelevationIcon" depth="2" pos="23,-11" size="20,20"
-                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_map_elevation_icon.png"
+                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_map_elevation_icon.png"
                          color="[hudElementsBG]" globalopacitymod="1.5"/>
                 <texture name="survivorHUDmapTempIcon" depth="2" pos="80,-11" size="20,20"
-                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_map_temperature_icon.png"
+                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_map_temperature_icon.png"
                          color="[hudElementsBG]" globalopacitymod="1.5"/>
                 <texture name="survivorHUDcoreTempIcon" depth="2" pos="136,-11" size="25,20"
-                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/master/UIAtlases/ItemIconAtlas/survivorHUD_hud_coretemp_icon.png"
+                         texture="@https://raw.githubusercontent.com/lloan/7dtd-survivorHUD/tweaks/UIAtlases/ItemIconAtlas/survivorHUD_hud_coretemp_icon.png"
                          color="[hudElementsBG]" globalopacitymod="1.5"/>
 
                 <label name="survivorHUDelevationValue" depth="3" pos="-30,-34" text="{mapelevation} M" font_size="20"
