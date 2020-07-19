@@ -148,7 +148,7 @@
                 <sprite depth="2" pos="-337,29" height="5" width="677" type="sliced" foregroundlayer="true" color="red"/>
                 <sprite depth="3" pos="-337,27" height="5" width="677" color="[darkGrey]" foregroundlayer="true" type="sliced"/>
                 <sprite depth="4" pos="-337,27" height="5" width="677" color="{xpcolor}" sprite="menu_empty3px" type="filled" fill="{xp}" globalopacitymod="1.5"
-                        controller="ToolbeltWindow" standard_xp_color="[xpcolor]" updating_xp_color="[green]"
+                        controller="ToolbeltWindow" updating_xp_color="[green]"
                         deficit_xp_color="[red]" xp_fill_speed="3.5"/>
 
                 <grid name="survivorHUDtoolbelt" depth="1" pos="-338,5" rows="1" cols="8" cell_width="85"
